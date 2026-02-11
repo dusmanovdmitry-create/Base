@@ -1,0 +1,34 @@
+package Basic
+
+import "fmt"
+
+// middleName := "Ivanov" - ошибка
+var middleName = "Ivanov"
+
+func main() {
+	// var age int - НЕИНИЦИАЛИЗИРОВАННАЯ ПЕРЕМЕННАЯ
+	// var name string = "John" - ИНИЦИАЛИЗИРОВАННАЯ ПЕРЕМЕННАЯ
+	// var name1 = "Jane" - НЕ ПИШЕМ STRING, ТАК КАК "JANE" ИТАК СТРОКА
+
+	// count:=10 - краткий способ объявления переменной
+	// lastName:= "Smith"
+
+	// middleName := "Petrov"
+
+	fmt.Println(middleName)
+
+	// Комментарии пишутся через двойной слэш или выделенный текст + слэш
+	// Нулевые значения
+	// Числовые ТД: 0
+	// Логические ТД: false
+	// Строковые ТД: ""
+	// Указатели, слайсы, карты, структуры и функции: nil
+
+	// fmt.Println(firstname)
+
+}
+
+func printFisrtName() {
+	firstName := "Sidorov"
+	fmt.Println(firstName)
+}
